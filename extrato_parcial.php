@@ -1,5 +1,6 @@
 <?php
 require_once("./config/connect.php");
+session_start();
 
 $stmt = $conn->prepare("SELECT tipo, SUM(valor) AS valor_parcial FROM vendas GROUP BY tipo");
 $stmt->execute();

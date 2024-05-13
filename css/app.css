@@ -7,9 +7,9 @@ body {
 }
 .card {
     width: 600px;
-    height: 300px;
-    padding: 20px;
-    margin: 4px;
+    height: 400px;
+    padding: 35px;
+    margin: 8px;
 }
 li a{
     text-decoration: none;

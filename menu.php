@@ -19,12 +19,13 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
      <link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
-    <div class="card">
+    <div class="card mb-4">
         <h1 class="text-center mb-4">Menu do PDV</h1>
-        <ul class="list-group">
-            <li class="list-group-item text-center"><a href="realizar_venda.php">Realizar Venda</a></li>
-            <li class="list-group-item text-center"><a href="extrato_parcial.php">Extrato Parcial</a></li>
-            <li class="list-group-item text-center"><a href="fechamento_pdv.php">Fechamento de PDV</a></li>
+        <ul class="list-group mb-3">
+            <li class="list-group-item text-center "><a href="realizar_venda.php">Realizar Venda</a></li>
+            <li class="list-group-item text-center "><a href="extrato_parcial.php">Extrato Parcial</a></li>
+            <li class="list-group-item text-center "><a href="cancelar_venda.php">Cancelar Venda</a></li>
+            <li class="list-group-item text-center "><a href="fechamento_pdv.php">Fechamento de PDV</a></li>
         </ul>
     </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
